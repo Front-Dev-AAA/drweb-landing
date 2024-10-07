@@ -1,0 +1,42 @@
+@media (max-width: 1900px) {
+  [class*="__container"] {
+   padding-left: 150px;
+   padding-right: 150px;
+  }
+}
+
+
+@media (max-width: 1400px) {
+
+  [class*="__container"] {
+    padding-left: 100px;
+    padding-right: 100px;
+   }
+
+   .hero__container {
+    padding-top: 95px;
+  }
+
+  /* .description__shell {
+   flex-direction: column;
+  } */
+
+  .description__left {
+    padding-top: 0;
+    margin-right: 0;
+    margin-bottom: 80px;
+  }
+
+  .description__right {
+    align-self: center;
+  }
+
+}
+
+@media (max-width: 1200px) {
+
+    .description__shell {
+   flex-direction: column;
+  }
+
+}

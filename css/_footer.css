@@ -1,0 +1,32 @@
+.footer {
+  background-color: var(--color-footer);
+}
+
+.footer__container {
+  padding-top: 80px;
+  padding-bottom: 64px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__block {
+  max-width: 368px;
+}
+
+.footer__block-top {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.footer__link {
+  margin-right: 12px;
+  cursor: pointer;
+}
+
+.footer__description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  color: var(--color-footer-text);
+  display: inline;
+}

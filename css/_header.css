@@ -1,0 +1,27 @@
+.header__container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 104px;
+  align-items: center;
+}
+
+.header__title {
+  font-weight: 800;
+  font-size: calc(20px + 66 * ((100vw - 320px) / (1920 - 320)));
+  text-align: center;
+  color: var(--color-black);
+  padding-top: 34px;
+}
+
+.header__description {
+  font-weight: 500;
+  font-size: calc(16px + 24 * ((100vw - 320px) / (1920 - 320)));
+  text-align: center;
+  color: var(--color-gray);
+  padding-top: 18px;
+  padding-bottom: 30px;
+}
+
+.header__link {
+  padding: 15px 32px;
+}
